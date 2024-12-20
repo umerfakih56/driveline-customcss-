@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Image from 'next/image'
+
 const Blogs = () => {
   return (
     <div>
@@ -15,12 +17,12 @@ const Blogs = () => {
       <h3>The car you drive says a lot about who you are.</h3>
       <br />
       <p>
-        Your vehicle is an extension of your personality. Choosing the right car or bike is essential for a fulfilling driving experience. Sports cars like the Lamborghini Huracan offer unmatched speed and thrill, while SUVs like the Range Rover Velar provide luxury and space for family adventures. If you are eco conscious, electric cars like the Tesla Model 3 are perfect for sustainable yet high tech rides.
+        Your vehicle is an extension of your personality. Choosing the right car or bike is essential for a fulfilling driving experience. Sports cars like the Lamborghini Huracan offer unmatched speed and thrill, while SUVs like the Range Rover Velar provide luxury and space for family adventures. If you are eco conscious, electric cars like the Tesla Model 4 are perfect for sustainable yet high tech rides.
       </p>
       <br />
       <div style={{ display: 'flex', marginLeft: '4%' }}>
-        <img src="blog(1).webp" alt="pic" style={{ width: '40%', height: 'auto', marginRight: '4%' , marginLeft: '6%' }} />
-        <img src="blog(2).webp" alt="pic" style={{ width: '40%', height: 'auto' }} />
+        <Image src="blog(1).webp" alt="pic"    width={1000} height={1000}   style={{ width: '40%', height: 'auto', marginRight: '4%' , marginLeft: '6%' }} />
+        <Image src="blog(2).webp" alt="pic"    width={1000} height={1000}  style={{ width: '40%', height: 'auto' }} />
       </div>
       <br />
       <h2>2. Keep Your Ride in Top Shape</h2>
@@ -38,11 +40,11 @@ const Blogs = () => {
       </p>
       <br />
       <div style={{ display: 'flex', marginLeft: '4%' }}>
-        <img src="blog(3).png" alt="pic" style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
-        <img src="blog(4).png" alt="pic" style={{ width: '40%', height: 'auto' }} />
+        <Image src="blog(6).png"         alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
+        <Image src="blog(4).png"     alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
       </div>
 
-      <h2>3. Embrace Advanced Automotive Technology</h2>
+      <h2>4. Embrace Advanced Automotive Technology</h2>
       <br />
       <h3>Modern vehicles are no longer just machines, they are integrated with cutting edge technology to make driving safer and more enjoyable.</h3>
       <br />
@@ -57,8 +59,8 @@ const Blogs = () => {
       </p>
       <br />
       <div style={{ display: 'flex', marginLeft: '4%' }}>
-        <img src="blog(5).png" alt="pic" style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
-        <img src="blog(6).png" alt="pic" style={{ width: '40%', height: 'auto' }} />
+      <Image src="blog(5).png"      alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
+      <Image src="blog(6).png"      alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
       </div>
 
       <h2>4. Comfort Matters: Drive in Style</h2>
@@ -76,8 +78,8 @@ const Blogs = () => {
       </p>
       <br />
       <div style={{ display: 'flex', marginLeft: '4%' }}>
-        <img src="blog(7).png" alt="pic" style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%' }} />
-        <img src="blog(8).png" alt="pic" style={{ width: '40%', height: 'auto' }} />
+      <Image src="blog(7).png" alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
+      <Image src="blog(8).png" alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
       </div>
     
     
@@ -97,8 +99,8 @@ const Blogs = () => {
       </p>
       <br />
       <div style={{ display: 'flex', marginLeft: '4%' }}>
-        <img src="blog(9).png" alt="pic" style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'}} />
-        <img src="blog(10).png" alt="pic" style={{ width: '40%', height: 'auto' }} />
+      <Image src="blog(9).png"  alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
+      <Image src="blog(10).png" alt="pic"  width={1000} height={1000}    style={{ width: '40%', height: 'auto', marginRight: '4%', marginLeft: '6%'  }} />
       </div>
     
     
